@@ -36,6 +36,11 @@ plane.position= new BABYLON.Vector3(-3,0,0);
 return scene;
 }
 
+
+// create parametric shapes
+// create a point 
+
+
 //create our scene 
 const scene  = createScene();
 engine.runRenderLoop(() => {

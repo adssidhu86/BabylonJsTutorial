@@ -17,3 +17,4 @@ const area = obj.width * obj.heigth;
 console.log(area) */
 
 console.log("hi");
+
