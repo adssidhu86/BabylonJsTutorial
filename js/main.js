@@ -1,5 +1,7 @@
 /// <reference path='./vendor/babylon.d.ts' />
 
+//const { babylonjs } = ̥;
+
 
 //get our canvas
 const canvas = document.getElementById('renderCanvas');
@@ -33,12 +35,21 @@ sphere.position = new BABYLON.Vector3(3,0,0);
 // create a plane 
 const plane = BABYLON.MeshBuilder.CreatePlane('plane',{},scene);
 plane.position= new BABYLON.Vector3(-3,0,0);
+
+// create parametric shapes
+// create a point 
+const points = [
+    new BABYLON.Vector3(2,0,0),
+    new BABYLON.Vector3(2,1,1),
+    new BABYLON.Vector3(2,1,0),
+];
+
+const lines = BABYLON.MeshBuilder.CreateLines('lines',{points},scene);
+
 return scene;
 }
 
 
-// create parametric shapes
-// create a point 
 
 
 //create our scene 
