@@ -15,3 +15,4 @@ if ("" == 0) {
 // Why is this NaN? Spelling is hard!
 const area = obj.width * obj.heigth;
 console.log(area)
+console.log(typeof obj);

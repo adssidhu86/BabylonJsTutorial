@@ -19,7 +19,7 @@ const scene = new BABYLON.Scene(engine);
 //const camera = new BABYLON.FreeCamera('camera',new BABYLON.Vector3(0,0,-10),scene);
 //const camera = new BABYLON.UniversalCamera('camera',new BABYLON.Vector3(0,0,-5),scene);
 const camera = new BABYLON.FollowCamera('camera',new BABYLON.Vector3(0,25,-25),scene);
-camera.attachControl(canvas,true);
+camera.attachControl(canvas);
 //create a 
 
 //const light = new BABYLON.HemisphericLight('light',new BABYLON.Vector3(0,1,0),scene);
